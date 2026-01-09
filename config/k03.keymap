@@ -18,7 +18,7 @@
             compatible = "zmk,behavior-sensor-rotate";
             label = "SCROLL_VERT";
             #sensor-binding-cells = <0>;
-            bindings = <&msc SCRL_UP>, <&msc SCRL_DOWN>;
+            bindings = <&msc MOVE_Y(10)>, <&msc MOVE_Y(-10)>;
         };
 
         scroll_hor: scroll_hor {

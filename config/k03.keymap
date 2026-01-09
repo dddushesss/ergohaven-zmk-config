@@ -42,7 +42,11 @@
             >;
 
             display-name = "Base";
-            sensor-bindings = <&enc_vol>, <&scroll_vert>;
+            sensor-bindings =
+                <&enc_vol>,
+                <&scroll_vert>,
+                <&enc_vol>,
+                <&scroll_vert>;
         };
 
         nav {
@@ -55,7 +59,11 @@
             >;
 
             display-name = "Nav";
-            sensor-bindings = <&enc_vol>, <&scroll_hor>;
+            sensor-bindings =
+                <&enc_vol>,
+                <&scroll_hor>,
+                <&enc_vol>,
+                <&scroll_hor>;
         };
 
         sym {
@@ -68,7 +76,11 @@
             >;
 
             display-name = "Symbols";
-            sensor-bindings = <&enc_vol>, <&scroll_vert>;
+            sensor-bindings =
+                <&enc_vol>,
+                <&scroll_vert>,
+                <&enc_vol>,
+                <&scroll_vert>;
         };
 
         adj {

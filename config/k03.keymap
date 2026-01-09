@@ -42,7 +42,7 @@
             >;
 
             display-name = "Base";
-            sensor-bindings = <&enc_vol>, <&enc_vol>;
+            sensor-bindings = <&enc_vol>, <&scroll_vert>;
         };
 
         nav {
@@ -68,7 +68,7 @@
             >;
 
             display-name = "Symbols";
-            sensor-bindings = <&enc_vol>, <&scroll_vert>;
+            sensor-bindings = <&enc_vol>, <&scroll_hor>;
         };
 
         adj {

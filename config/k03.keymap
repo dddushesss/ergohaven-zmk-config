@@ -18,7 +18,7 @@
             compatible = "zmk,behavior-sensor-rotate";
             label = "SCROLL_VERT";
             #sensor-binding-cells = <0>;
-            bindings = <&msc MOVE_Y(10)>, <&msc MOVE_Y(-10)>;
+            bindings = <&msc SCRL_UP>, <&msc SCRL_DOWN>;
         };
 
         scroll_hor: scroll_hor {
@@ -42,13 +42,7 @@
             >;
 
             display-name = "Base";
-            sensor-bindings =
-                <&enc_vol>,
-                <&scroll_vert>,
-                <&enc_vol>,
-                <&scroll_vert>,
-                <&enc_vol>,
-                <&scroll_vert>;
+            sensor-bindings = <&enc_vol>, <&scroll_vert>;
         };
 
         nav {
@@ -61,13 +55,7 @@
             >;
 
             display-name = "Nav";
-            sensor-bindings =
-                <&enc_vol>,
-                <&scroll_hor>,
-                <&enc_vol>,
-                <&scroll_hor>,
-                <&enc_vol>,
-                <&scroll_hor>;
+            sensor-bindings = <&enc_vol>, <&scroll_hor>;
         };
 
         sym {
@@ -80,13 +68,7 @@
             >;
 
             display-name = "Symbols";
-            sensor-bindings =
-                <&enc_vol>,
-                <&scroll_vert>,
-                <&enc_vol>,
-                <&scroll_vert>,
-                <&enc_vol>,
-                <&scroll_vert>;
+            sensor-bindings = <&enc_vol>, <&scroll_vert>;
         };
 
         adj {

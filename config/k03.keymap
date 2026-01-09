@@ -46,6 +46,8 @@
                 <&enc_vol>,
                 <&scroll_vert>,
                 <&enc_vol>,
+                <&scroll_vert>,
+                <&enc_vol>,
                 <&scroll_vert>;
         };
 
@@ -63,6 +65,8 @@
                 <&enc_vol>,
                 <&scroll_hor>,
                 <&enc_vol>,
+                <&scroll_hor>,
+                <&enc_vol>,
                 <&scroll_hor>;
         };
 
@@ -77,6 +81,8 @@
 
             display-name = "Symbols";
             sensor-bindings =
+                <&enc_vol>,
+                <&scroll_vert>,
                 <&enc_vol>,
                 <&scroll_vert>,
                 <&enc_vol>,
